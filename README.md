@@ -14,6 +14,7 @@ The MyToken contract includes these main components:
 * mint(address _address, uint _value): Function to mint new tokens and assign them to a specified address.
 * burn(address _address, uint _value): Function to burn (destroy) existing tokens.
 
+
 ## Getting Started
 ### IDE
 REMIX: The Native IDE for Web3 Development.
