@@ -4,13 +4,13 @@ This program is a basic smart contract written in Solidity, a programming langua
 ## Description
 
 The MyToken contract includes these main components:
-### State Variables:
+##### State Variables:
 * tokenName: A public string variable that represents the name of the token. In this case, it's set to "Vibhor".
 * tokenAbbrv: Another public string variable representing the abbreviation of the token name. It's set to "Vib".
 * totalSupply: An unsigned integer representing the total supply of tokens. It's initialized to 0 and will change as tokens are minted or burned.
-### Balance Variable:
+##### Balance Variable:
 * balances: Mapping variable that associates addresses with their respective token balances.
-### Functions:
+##### Functions:
 * mint(address _address, uint _value): Function to mint new tokens and assign them to a specified address.
 * burn(address _address, uint _value): Function to burn (destroy) existing tokens.
 
